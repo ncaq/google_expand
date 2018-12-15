@@ -1,6 +1,6 @@
 /* public domain */
 
-@-moz-document regexp('^https?://[^.]+\.google\.[^/]+/[^t]*[^b]*[^m]*') {
+@-moz-document regexp('^https?://[^.]+\.google\.[^/]+/search[^t]*[^b]*[^m]*') {
   #cnt #center_col,
   #cnt #foot {
     width: 750px !important;
