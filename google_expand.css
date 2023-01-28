@@ -1,6 +1,13 @@
-/* public domain */
+/* ==UserStyle==
+@name           Google expand
+@namespace      https://www.ncaq.net/
+@author         ncaq
+@version        1.0.0
+@license        CC0-1.0
+==/UserStyle== */
 
-@-moz-document regexp('^https://www\\.google\\.[^/]+/search\\?(?!.*tbm).*') {
+@-moz-document regexp('^https://www\\.google\\.[^/]+/search\\?(?!.*tbm).*')
+{
   #rso .g {
     width: 750px !important;
   }
